@@ -31,6 +31,7 @@ class SatelliteSRDataset(Dataset):
         extensions = ["*.jpg", "*.jpeg","*.jfif", "*.png", "*.tif", "*.tiff"]
 
         self.image_paths = []
+        
 
         for extension in extensions:
             self.image_paths.extend(
